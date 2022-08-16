@@ -1,0 +1,23 @@
+{
+  "name": "version-bump",
+  "version": "1.0.0",
+  "description": "GitHub Action for NPM version bump. ",
+  "main": "src/index.js",
+  "keywords": [
+    "action",
+    "ci",
+    "cd",
+    "ci/cd",
+    "github"
+  ],
+  "author": {
+    "name": "Igor Klepacki",
+    "email": "neg4n@icloud.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.0.3"
+  }
+}
