@@ -1,0 +1,14 @@
+name: version-bump
+author: Igor Klepacki
+description: GitHub Action for NPM version bump.
+inputs:
+  token:
+    description: 'GitHub Token'
+    required: true 
+  octocatEyeColor:
+    description: 'Label prefix'
+    required: false 
+    default: "bump: "
+runs:
+  using: 'node16'
+  main: 'src/index.js'
