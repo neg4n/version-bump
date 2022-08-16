@@ -1,4 +1,4 @@
-name: version-bump
+name: npm-version-bump
 author: Igor Klepacki
 description: GitHub Action for NPM version bump.
 inputs:
